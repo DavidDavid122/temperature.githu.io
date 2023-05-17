@@ -1,0 +1,65 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #184b64;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    max-width: 350px;
+    background: #4a98f7;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 35px;
+    transition: all 0.3s ease;
+}
+
+.wrapper:hover {
+    background: blue;
+} 
+
+.input-box h6 {
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.input-box input {
+    height: 50px;
+    max-width: 100px;
+    color: gray;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.input-box input::-webkit-inner-spin-button,
+.input-box input::-webkit-outer-spin-button {
+    display: block;
+}
+
+.icon {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
